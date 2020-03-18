@@ -1,7 +1,7 @@
 {
   "name": "test",
   "source-directories": [
-    "source"
+    "src"
   ],
   "test-directories": [
     "tests"
