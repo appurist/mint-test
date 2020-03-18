@@ -1,10 +1,10 @@
 component Hello {
-  property target : String = "World!"
+  property target : String = "World"
 
   fun render : Html {
    <p>
      "Hello "
-     <{ target }>
+     <{ target }> "!"
    </p>
   }
 }
