@@ -2,9 +2,9 @@ component Hello {
   property target : String = "World"
 
   fun render : Html {
-   <p>
+   <div class="px-6 py-4 text-center">
      "Hello "
      <{ target }> "!"
-   </p>
+   </div>
   }
 }
